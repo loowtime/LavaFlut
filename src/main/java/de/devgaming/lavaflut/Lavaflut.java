@@ -1,5 +1,6 @@
 package de.devgaming.lavaflut;
 
+import de.devgaming.lavaflut.commands.AutoStart;
 import de.devgaming.lavaflut.commands.RunCommand;
 import de.devgaming.lavaflut.events.EntityDamageListener;
 import de.devgaming.lavaflut.events.LobbyStateListeners;
@@ -33,6 +34,7 @@ public final class Lavaflut extends JavaPlugin {
 
     public void registerCommands() {
         this.getCommand("start").setExecutor(new RunCommand());
+        this.getCommand("autostart").setExecutor(new AutoStart());
     }
 
     @Override

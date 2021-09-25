@@ -10,3 +10,9 @@ commands:
     aliases:
       - run
       - startlavaflut
+  autostart:
+    permission: lavaflut.autostart
+    permission-message: §8[§6LavaFlut§8] §cKeine Rechte Dazu!
+    aliases:
+      - getstart
+      - gostart
