@@ -1,0 +1,12 @@
+name: Lavaflut
+version: '${project.version}'
+main: de.devgaming.lavaflut.Lavaflut
+authors: [ lowtime ]
+api-version: 1.12
+commands:
+  start:
+    permission: lavaflut.start
+    permission-message: §8[§6LavaFlut§8] §cKeine Rechte Dazu!
+    aliases:
+      - run
+      - startlavaflut
